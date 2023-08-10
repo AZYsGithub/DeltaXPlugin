@@ -1,4 +1,4 @@
--- Assuming you've loaded the Delta Version X Plugin Library
+-- To load this, save this file into workspace/DeltaPlugins folder.
 
 -- Adding a tab to the main menu
 delta:Add("MyTab", "--Custom Tab")
