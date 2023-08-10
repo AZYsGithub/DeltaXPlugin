@@ -28,7 +28,7 @@ end)
 ## Saved Scripts (Adding a Script to the Local Script Section)
 To add a script to the local saved script section, you can use the following code:
 ```lua
-delta:SaveScript("Name", "source", "Tag")
+delta:SaveScript("Name", "print('hi')", "Tag")
 ```
 **NOTE:** This only adds the script in Delta local script menu and it won't be saved. To save it, use `writefile()` to create a file and add it to local storage. The saved scripts file should be placed in `workspace/d_android_script_dir`.
 
