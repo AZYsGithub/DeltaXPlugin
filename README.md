@@ -1,7 +1,7 @@
 # Delta Version X Plugin Library
 This is the Delta X APIs for your custom features.
 
-You can view the sample code [here](https://example.com/).
+You can view the sample code [here](.\example.lua).
 
 ## Getting Started
 To access it, we have exposed a global table called `delta`. You can use `getgenv().delta` or simply `delta` to access it.
