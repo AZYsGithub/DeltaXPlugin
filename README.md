@@ -21,6 +21,7 @@ Example:
 ![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145409799278837781/image.png)
 
 **Note: New tab will auto focussed/opened**
+
 ## Adding a Suggestion Script
 In Delta, we have a script suggestion feature in the main menu, but you can customize it. Here's an example:
 ```lua
@@ -28,6 +29,11 @@ delta:SetCurrentSuggestionScript("Name", "Description", function()
   print("Clicked!")
 end)
 ```
+Example:
+
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145410052732227584/image.png)
+
+**NOTE: Currently not available.**
 
 ## Saved Scripts (Adding a Script to the Local Script Section)
 To add a script to the local saved script section, you can use the following code:
@@ -36,7 +42,7 @@ delta:SaveScript("Name", "print('hi')", "Tag")
 ```
 Example:
 
-![example](hi.com)
+![example][(https://cdn.discordapp.com/attachments/1122943671499772006/1145410341791092746/image.png)
 
 **NOTE:** This only adds the script in Delta local script menu and it won't be saved. To save it, use `writefile()` to create a file and add it to local storage. The saved scripts file should be placed in `workspace/d_android_script_dir`.
 
@@ -52,7 +58,7 @@ end)
 ```
 Example:
 
-![example](hi.com)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145410518413217832/image.png")
 
 
 ### Adding a Switch
@@ -68,7 +74,7 @@ end)
 ```
 Example:
 
-![example](hi.com)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145410859032662058/image.png)
 
 **NOTE:** The `state` argument in the function is a boolean that represents whether it is enabled or not. The `false` boolean at the third argument represents whether it is enabled by default or not.
 
@@ -81,7 +87,7 @@ end)
 ```
 Example:
 
-![example](hi.com)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145411055774871652/image.png)
 
 **NOTE:** The `text` argument represents the text from the user input.
 
@@ -100,7 +106,7 @@ end)
 ```
 Example:
 
-![example](hi.com)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145415217652695201/image.png)
 
 
 ## How to Install the Plugin?
@@ -111,4 +117,4 @@ The folder for the Delta Plugin is saved and executed at `workspace/DeltaPlugins
 Anything that was file in that folder going to executed.
 
 ## Credits
-This was made by the DeltaTeam, especially `1tsfvckinglxnny` and `.chillz.`.
+This was made by the DeltaTeam, especially `1tsfvckinglxnny` and `chill.z`.
