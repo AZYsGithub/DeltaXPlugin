@@ -14,7 +14,7 @@ This table contains sections and methods that can be called.
 ## Adding a Tab
 To add a tab to the main menu, you can use the following code:
 ```lua
-delta:Add("Name", "--Text In Textbox")
+delta:AddTab("Name", "--Text In Textbox")
 ```
 
 ## Adding a Suggestion Script
