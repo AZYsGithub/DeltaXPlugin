@@ -16,7 +16,9 @@ To add a tab to the main menu, you can use the following code:
 ```lua
 delta:AddTab("Name", "--Text In Textbox")
 ```
-
+Example:
+![example](hi.com)
+**Note: New tab will auto focussed/opened**
 ## Adding a Suggestion Script
 In Delta, we have a script suggestion feature in the main menu, but you can customize it. Here's an example:
 ```lua
