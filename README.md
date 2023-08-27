@@ -88,7 +88,7 @@ Example:
 ### Adding a Dropdown
 To add a dropdown for your plugin, you can include the following code in your plugin:
 ```lua
-delta.Settings:AddDropdown("Dropdown", "Just custom features for the plugin", {"1", "2", "3"}, function(selected)
+delta.Settings:AddDropdown("Dropdown", "Just custom features for the plugin", "Nothing!", {"1", "2", "3"}, function(selected)
   if selected == "1" then
     print("It's One!")
   elseif selected == "2" then
