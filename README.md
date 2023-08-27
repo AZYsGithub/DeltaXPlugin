@@ -18,7 +18,7 @@ delta:AddTab("Name", "--Text In Textbox")
 ```
 Example:
 
-![example](hi.com)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145409799278837781/image.png)
 
 **Note: New tab will auto focussed/opened**
 ## Adding a Suggestion Script
