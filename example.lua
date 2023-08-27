@@ -26,7 +26,7 @@ delta.Settings:AddSwitch("Switch", "Just a toggle.", false, function(state)
 end)
 
 -- Adding an input field to plugin settings
-delta.Settings:AddInput("Print Input", "Prints what you put in your textbox.", function(text)
+delta.Settings:AddInput("Print Input", "Prints what you put in your textbox.","none", function(text)
   print("Input:", text)
 end)
 
