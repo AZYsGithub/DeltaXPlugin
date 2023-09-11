@@ -42,7 +42,7 @@ delta:SaveScript("Name", "print('hi')", "Tag")
 ```
 Example:
 
-![example][(https://cdn.discordapp.com/attachments/1122943671499772006/1145410341791092746/image.png)
+![example](https://cdn.discordapp.com/attachments/1122943671499772006/1145410341791092746/image.png)
 
 **NOTE:** This only adds the script in Delta local script menu and it won't be saved. To save it, use `writefile()` to create a file and add it to local storage. The saved scripts file should be placed in `workspace/d_android_script_dir`.
 
