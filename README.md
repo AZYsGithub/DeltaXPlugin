@@ -117,4 +117,4 @@ The folder for the Delta Plugin is saved and executed at `workspace/DeltaPlugins
 Anything that was file in that folder going to executed.
 
 ## Credits
-This was made by the DeltaTeam, especially `1tsfvckinglxnny` and `chill.z`.
+This was made by the DeltaTeam, especially `1tsfvckinglxnny` and `.chill.z.`.
