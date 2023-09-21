@@ -7,6 +7,7 @@ You can view the sample code [here](https://github.com/AZYsGithub/DeltaXPlugin/b
 To access it, we have exposed a global table called `delta`. You can use `getgenv().delta` or simply `delta` to access it.
 ```lua
 getgenv().delta
+-- This is table that can be use to access the plugin functions.
 ```
 
 This table contains sections and methods that can be called.
